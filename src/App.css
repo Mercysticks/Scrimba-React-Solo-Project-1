@@ -1,38 +1,85 @@
-.App {
-  text-align: center;
-}
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.card__container{
+  background: #1A1B21;
+  width:317px;
+  margin: 0 auto;
+  height:100vh;
+  margin-top: 30px;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.card__cover-img{
+  width:317px;
+  border-radius:  10px 0px 0px;
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
+.card__info-sub{
+  display:flex;
   flex-direction: column;
-  align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  align-items: center;
+  background-color: #1A1B21;
 }
-
-.App-link {
-  color: #61dafb;
+.card__Title{
+  color:#ffffff;
+  font-weight: 700;
+  font-size: 25px;
+  margin-top: 5px;
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.card__desc{
+  color:#F3BF99;
+  font-weight: 400;
+  font-size: 12.8px;
+  margin-top: -20px;
+}
+.card__website{
+  color:#F5F5F5;
+  font-size: 10.24px;
+  font-weight: 400;
+  margin-top: -20px;
+}
+.card__button{
+  display:flex;
+  justify-content:space-evenly;
+}
+.card__about{
+  color:#F5F5F5;
+  font-size: 16px;
+  font-weight: 700;
+}
+.about{
+  padding:27px;
+  margin-top: -25px;
+}
+.card__about-desc{
+  color: #DCDCDC;
+  font-size: 10.24px;
+  font-weight: 400;
+  margin-top: -15px;
+}
+.interest{
+  padding:27px;
+  margin-top: -45px;
+}
+.card__interest{
+  color:#F5F5F5;
+  font-size: 16px;
+  font-weight: 700;
+}
+.card__interest-desc{
+  color: #DCDCDC;
+  font-size: 10.24px;
+  font-weight: 400;
+  margin-top: -15px;
+  width:247px;
+}
+.card__footer{
+  background: #161619;
+  border-radius: 0px 0px 10px 10px;
+  height:64px;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  margin-top: -30px;
+}
+a:hover{
+    transform:translateY(-2px);
+    transition: all 2s ease;
 }
